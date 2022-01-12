@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Webpage Title -->
+    <title>Merimbula Health Foods</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/YinYang.svg">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <nav class="nav">
+        <div class="header">
+            <a class="image-logo" href="index.html" ><img src="images/YinYang.svg" alt="YinYang"></a>
+        </div><!-- End Image Logo -->
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Merimbula Health Foods</h1>
+                <h2>Your Local Friendly Health Food Store</h2>
+            </div>
+        </div> 
+    </header>
+
+    <!-- Section 1 -->
+    <section class="section1">
+        <div id="col-text" class="col-text">
+            <div class="text">
+                <h4>Come in and see us for friendly and professional advice, natural medicines, allergy-friendly food choices and all your health needs.</h4>
+            </div>
+        </div><!-- End of text column -->
+
+        <div class="col">
+            <div class="healthfoods">
+                <img src="images/MerHealthShop1.jpg" alt="store">
+            </div>
+        </div><!-- End of image column -->    
+    </section>
+
+    <!-- Section Details 1 -->
+    <section class="section">
+        <div class="image">              
+            <img src="images/superfoods.jpg" alt="super foods">
+            <div class="hovering">
+                <div class="text-hover">Health Foods</div>
+            </div>
+        </div><!-- End of image column --> 
+
+        <div class="col-text">
+            <div class="text">
+                <h4>Super and organic foods</h4>
+                <ul class="list">
+                    <li>herbal teas</li>
+                    <li>natural skin care</li>
+                    <li>eco friendly products</li>
+                </ul>
+            </div>
+        </div><!-- End of text column -->            
+    </section>
+
+    <!-- Section Details 2 -->
+    <section id="section" class="section">
+        <div class="col-text">
+            <div class="text">
+                <h4>Alternative Medicines</h4>
+                <ul class="list">
+                    <li>Herbs</li>
+                    <li>Vitamins</li>
+                    <li>Minerals</li>
+                </ul>
+            </div>
+        </div><!-- End of text column -->
+
+        <div class="image">
+            <img src="images/alternativemedicines.jpg" alt="super foods">
+            <div class="hovering">
+                <div class="text-hover">Vitamins and Minerals</div>
+            </div>
+        </div><!-- End of image column --> 
+    </section>
+
+    <!-- Section Details 3 -->
+    <section class="section">
+        <div class="image">                
+            <img src="images/allergyfriendly.jpg" alt="super foods">
+            <div class="hovering">
+                <div class="text-hover">Great Advice</div>
+            </div>
+        </div><!-- End of image column --> 
+
+        <div class="col-text">
+            <div class="text">
+                <h4>Allergy Friendly Foods</h4>
+                <ul class="list">
+                    <li>Gluten free</li>
+                    <li>Dairy free</li>
+                </ul>
+            </div>
+        </div><!-- End of text column -->
+    </section>
+
+    <!-- Info Section -->
+    <section class="info">
+        <div class="text">
+            <h2>MERIMBULA HEALTH FOODS</h2>
+            <div class="row">
+                <div class="opening">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li>Mon - Fri: 9am - 5pm</li>
+                        <li>Sat: 9am - 2pm</li>
+                        <li>Sun and public holidays: Closed</li>
+                    </ul>
+                </div><!-- End of opening hours container -->
+    
+                <div class="where">
+                    <h3>Where</h3>
+                    <ul>
+                        <li>Shop 2, 6 Merimbula Drive</li>
+                        <li>MERIMBULA NSW 2548</li>
+                        <li>Opposite the Post Office</li>
+                    </ul>
+                </div><!-- End of where container -->
+            </div><!-- End of row -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="phone">
+            <h3>Phone</h3>
+            <h4>0491 028 133</h4>
+        </div><!-- End of phone container -->
+
+        <div class="form">
+            <h3>Contact us</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label class="label-control" for="name"></label>
+                    <input type="text" class="form-control-input" id="name" required placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label class="label-control" for="email"></label>
+                    <input type="text" class="form-control-input" id="email" required placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label class="label-control" for="Message"></label>
+                    <textarea name="Message" class="form-control-input" id="comments" cols="30" rows="8" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="form-control-submit-button">Submit</button>
+                </div>
+            </form>
+        </div><!-- End of form container -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© Copyright 2021 | Web design by <a href="#">Jose Tarin</a></p>
+        </div>
+        <a href="#" id="back-to-top">Top</a>
+    </footer>
+
+    <script>
+        const backToTop = document.getElementById("back-to-top");
+
+        window.addEventListener("scroll", function() {
+            if (window.pageYOffset > 200) {
+                backToTop.style.display = "block";
+            } 
+            else {
+                backToTop.style.display = "none"
+            }
+        })
+        backToTop.addEventListener("click", function(){
+            window.scrollTo(0,0);
+        })
+    </script>
+</body>
+</html>
